@@ -1,0 +1,45 @@
+* {
+    color: rgb(42, 42, 42);
+    background-color: rgb(255, 255, 255);
+    font-family: "Libre Barcode 39 Text", Tahoma, sans-serif;
+
+}
+
+body{
+    border: 4px solid #5a5252;
+    text-align: center;
+}
+
+h1{
+    color: rgb(127, 133, 184);
+    font-size: 500%;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 2rem;
+}
+/*.my-colours {
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}*/
+#Instructor {
+    color: rgb(112, 10, 113);
+}
+
+#last-para{
+    color: rgb(0, 0, 0);
+    font-family:"Source Code Pro", monospace; ;
+}
+
+
+/*<uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 200 to 900*/
+
+
+
+
+[data-email="email"] {
+    color:rgb(0, 255, 60);
+}
