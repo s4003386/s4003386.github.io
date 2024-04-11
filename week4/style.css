@@ -49,3 +49,13 @@ body {
   flex-shrink: 0;
 }
 
+.growmore{
+  flex-grow: 3;
+}
+
+.grid{
+  position:absolute;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5,1fr);
+
+}
