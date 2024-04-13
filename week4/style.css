@@ -6,7 +6,7 @@ body {
   text-align: center;
   margin: auto;
   max-width: 1000px;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
