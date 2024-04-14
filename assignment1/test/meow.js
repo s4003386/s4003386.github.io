@@ -1,9 +1,9 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+/*var slideIndex = 1;
+//showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+//function plusSlides(n) {
+//  showSlides(slideIndex += n);
+//}
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -24,3 +24,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+*/
+
+document.addEventListener("mousemove", parallax);
+function parallax(event) {
+  this.querySelectorAll(".move").forEach((shift) => {
+    const position = shift.getAttribute("value");
+    const x = (window.innerWidth - event.pageX * position) / 90;
+    const y = (window.innerHeight - event.pageY * position) / 90;
+
+    shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+  });
+}
