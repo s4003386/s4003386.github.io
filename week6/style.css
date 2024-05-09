@@ -77,6 +77,10 @@ body {
   .coral-box {
     background-color: coral;
   }
+  
+  .lime-box {
+    background-color: limegreen;
+  }
 
   h1 {
     font-size: 40px;
