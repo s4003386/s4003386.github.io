@@ -39,7 +39,42 @@ function toggleSound(){
 
 myVideo.addEventListener("timeupdate", updateProgressBar);
 
+const progressBarFill = document.querySelector("#progress-bar-fill");
+
 function updateProgressBar() {
     const progress = (myVideo.currentTime / myVideo.duration) * 100;
     console.log(progress);
+    progressBarFill.style.width = progress + "%";
 }
+
+
+
+myVideo.addEventListener("dbclick", goFullscreen);
+
+const fullscreenButton = document.querySelector("#full-screen-button")
+console.log(fullscreenButton)
+
+fullscreenButton.addEventListener("click", goFullscreen)
+
+function goFullscreen() {
+    if(!document.fullscreenElement) {
+        myVideo.requestFullscreen();
+    } else {
+        document.exitFullscreen();
+    }
+}
+
+
+
+//step
+
+const step1Button = document.querySelector("#step1");
+console.log(step1Button);
+step1Button.addEventListener("click", gotostep1);
+
+function gotostep1() {
+    myVideo.currentTime = 53.0;
+}
+
+//i;m suppose to add a volume button right now but i'm like bored out of my mind. 
+//nyaaaaaaan nyannyanmeow nya n

@@ -15,16 +15,17 @@
         <script src="script.js" defer></script>
 
 </head>
+
 <body>
     <!-- <h1>video example</h1> -->
     <div class="outer">
          <section class="video-container">
              <video src="stardust.mp4" controls id="my-video"></video>
          </section>
-   
+
     
     <section class="videocontrols">
-        <button id="play-pause-btn">
+        <button id="play-pause-button">
             <img
                  id="play-pause-img"
                  src="https://img.icons8.com/ios-glyphs/30/play--v1.png"
@@ -33,6 +34,33 @@
                  height="24"
              />
         </button>
+        <button id="next-song-button">
+            <img 
+               id="next-song-img"
+               src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
+               alt="Play Button"
+               width="24"
+               height="24"
+        />
+        </button>
+        <div class="progress-bar">
+            <span id="progress-bar-fill"></span>
+        </div>
+        <button id="full-screen-button">
+            <img
+                id = "full-screen-img"
+                src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
+                alt="Play Button"
+                width="24"
+                height="24"
+            />
+        </button>
+
+    </section>
+    <p></p>
+    <section class="timeline">
+        <button id="step1">step1</button>
+        <button id="step2"> step2 </button>
     </section>
     
 </div>

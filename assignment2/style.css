@@ -1,0 +1,55 @@
+*{
+  font-family:"Source Code Pro", monospace; ;
+}
+
+  /* Header styling */
+  /*very simplified as I want to keep the site as simple as possible, considering users are probably here to either relax or study. More details serve as distractions*/
+  .header{
+    z-index: 1;
+    position: absolute;
+  }
+  
+  
+/* For the background video. It covers the whole screen as to mimic a sort of 'aquarium in your' screen effect to enhance the vibes i'm going for*/
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+button{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  margin-right: 16px;
+}
+
+.container {
+  margin-left: 5vh;
+  padding-top: 3vh;
+  margin-right: 5vh;
+
+}
+
+.containercontainer{
+  align-items: center;
+  display: flex;
+}
+
+
+  /* Footer styling */
+  footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: left;
+    margin-left: 5vh;
+    margin-top: 85vh;
+
+    position: absolute;
+  }

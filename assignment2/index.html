@@ -3,10 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 2</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+        </style>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
-<body>
-    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+<!--I thought having a slightly retro/liminal computer vibe would be a suitable theme for a site to study to. Because of this, a text animation effect similar to typing/booting up on old computers was added. -->
+<body onload="typeWriter(), typeWriterFoot()" >
+ <!-- I removed all of the navigation section, as this site is purely for music only 
+A background video of some nice jellyfish was added as a visual if people wanted to have a nice video playing in the back while studying
+This video consists of the majority of the site as people coming here likely arent looking for much else
+Since there is no obvious way to play and pause, there is the option of both clicking the screen and the buttons to play and pause both the video and the music
+For users who just want to pause the video but still want to stay on the website, there is an option to pause the video 
+-->
+<video  muted loop id="background-Video">
+    <source src="media/Jellyfish.mp4" type="video/mp4">
+  </video>
+
+
+<audio loop id="my-audio">
+    <source src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/erokia_ambient-wave-56-msfxp7-78.mp3">
+</audio>
+
+<audio loop id="song2">
+    <source src="media/Regret(Splatoon2).mp3" type="audio/mp3">
+</audio>
+
+<audio loop id="song3">
+    <source src="media/Group velocity little alchemy 2.mp3" type="audio/mp3">
+</audio>
+
+
+<!--
+The header is invisible as to show more of the calming jellyfish and place less emphasis on the actual other material on the page for better
+-->
+<div class="container">
+    <div class="header"> <!--text header-->
+        <div class="containerfirst" id="containerFirst">
+            <p id="demo"> <!--starting text, 'Welcome to the aquarium. Click play to start'etc-->
+                
+            </p>
+            <p>
+        </div>
+    <div class="containercontainer">  <!-- buttons --> 
+            <button id="prev-button">
+                <img
+                    id="previous-button-img"
+                    src="https://img.icons8.com/ios/50/FFFFFF/rewind.png"
+                    width="24"
+                    height="24">
+            </button>
+            
+            <button id="play-pause-button">
+                <img                  
+                    id="play-pause-img"
+                    src="https://img.icons8.com/ios/50/FFFFFF/play--v1.png"
+                    alt="Play Button"
+                    width="24"
+                    height="24">
+            </button>
+
+            <button id="next-button">
+                <img
+                    id="next-button-img"
+                    src="https://img.icons8.com/ios/50/FFFFFF/fast-forward.png" alt="fast-forward"
+                    width="24"
+                    height="24">
+            </button>
+            
+            <!--<button id="loop-button">
+                <img
+                    id="loop-button-img"
+                    src="https://img.icons8.com/ios/50/FFFFFF/repeat.png"
+                    width="24"
+                    height="24">
+            </button>-->
+            <p id="song-name-print1"> </p>
+            <p id="song-name-print2"> </p>
+            <p id="song-name-print3"> </p>
+    </div> 
+        
     
+<p></p>
+    <div id="boxcontainer2"> 
+        <script></script>
+        <button onclick="typeWriterSong1()" id="button-song1">
+             >Song 1
+        </button>
+
+        <button onclick="typeWriterSong2()" id="button-song2">
+             >Song 2
+        </button>
+
+        <button onclick="typeWriterSong3()" id="button-song3">
+             >Song 3
+        </button>
+
+
+    </div>
+</div>
+
+
+
+</div>
+
+    <footer>
+        <p  id="demo2"></p>
+
+    </footer>
+
 </body>
 </html>
