@@ -15,7 +15,7 @@
     	"Background": "Backgrounds/Dock_Crime.png",
     	"PAGES": {
 			"Page0" : {
-				"Traveller": "Viola",
+				"Character": "Traveller",
 				"Sprite": "Default",
 				"PageText": "We're having a pop quiz today!"
 				
