@@ -3,7 +3,7 @@
 { 
     "Characters": {
         "Traveller": {
-        	"Default": "assignment3/sprite/Test/Default.png"
+        	"Default": "sprites/Test/Default.png"
         },
         "Heizou": {
         	"Default": "sprite/Test/Default.png"
@@ -12,7 +12,7 @@
     },
     
     "Scene1": {
-    	"Background": "./assignment3/Backgrounds/Dock_Crime.png",
+    	"Background": "Backgrounds/Dock_Crime.png",
     	"PAGES": {
 			"Page0" : {
 				"Traveller": "Viola",

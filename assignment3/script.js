@@ -1,5 +1,5 @@
 /* **SUPER IMPORTANT**  PUT THE URL OF THE JSON FILE WHERE YOU INSERTED ALL YOUR DATA HERE !! */
-const vnData = './vnData.json';
+const vnData = 'vnData.json';
 console.log(vnData);
 
 // Creates the HTML and inserts it into the document 
@@ -42,7 +42,7 @@ async function grabData() {
 	// Load the data
 	
 	/* Fetches the data from the server */
-	const resp = await fetch(vnData);
+	const resp = await fetch(vnData)
 
 	/* Putting the data into an array */
 	json = await resp.json();
@@ -57,7 +57,8 @@ async function grabData() {
 
 // Initializes the data & also handles page turning 
 async function initialize(data){
-
+	
+	//cleans it all
 	$spritebox.src = '';
 	$namebox.innerText = '';
 	$textbox.innerText = ''; 
