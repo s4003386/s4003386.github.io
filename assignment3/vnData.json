@@ -3,44 +3,26 @@
 { 
     "Characters": {
         "Traveller": {
-        	"Default": "sprite/Test/Default.png",
-			"Happy": "sprite/Test/Default.png",
-        	"Thinking": "sprite/Test/Default.png",
-        	"Peeved": "sprite/Test/Default.png"
+        	"Default": "assignment3/sprite/Test/Default.png"
         },
         "Heizou": {
-        	"Default": "sample_pictures/black1.png",
-        	"Thinking": "sample_pictures/black2.png",
-        	"Peeved": "sample_pictures/black3.png"
-        },
-        "Ayaka": {
-        	"Default": "sample_pictures/blue1.png",
-        	"Thinking": "sample_pictures/blue2.png",
-        	"Peeved": "sample_pictures/blue3.png"
+        	"Default": "sprite/Test/Default.png"
         }
-		,
-        "Thoma": {
-        	"Happy": "sample_pictures/blue1.png",
-        	"Thinking": "sample_pictures/blue2.png",
-        	"Peeved": "sample_pictures/blue3.png"
-        }
-
-
 		
     },
     
     "Scene1": {
-    	"Background": "https://i.pinimg.com/originals/d8/ce/14/d8ce149cace0bf4d0109e7e8e5b8e6e4.png",
+    	"Background": "./assignment3/Backgrounds/Dock_Crime.png",
     	"PAGES": {
 			"Page0" : {
-				"Character": "Viola",
-				"Sprite": "Happy",
+				"Traveller": "Viola",
+				"Sprite": "Default",
 				"PageText": "We're having a pop quiz today!"
 				
 			},
 			"Page1" : {
-				"Character": "Viola",
-				"Sprite": "Happy",
+				"Character": "Traveller",
+				"Sprite": "Default",
 				"PageText": "And just so you know, the questions were made for me by Miss Smith next door. "
 				
 			},
