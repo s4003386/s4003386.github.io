@@ -1,0 +1,197 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+    background-color: #1a120b;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #e5e5cb;
+    /* color: #3c2a21; */
+    font-size: 1.1rem;
+    gap: 1.5rem;
+  }
+  
+  .outer {
+    border: 2px dashed #e5e5cb7a;
+    width: 400px;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    opacity: 1;
+    /* background-color: cornsilk; */
+    transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+  }
+
+  button {
+    padding: 20px;
+    font-size: 2rem;
+    background-color: rgb(157, 100, 237);
+    cursor: pointer;
+    transition: background-color 0.3s ease scale 0.3s ease;
+  }
+
+  button:hover{
+    background-color: rgb(105, 37, 165);
+    scale: 0.8;
+  }
+
+  input{
+    padding: 10px;
+    border: 4px solid pink;
+    border-radius: 10px;
+    transition: border-color 0.3s linear;
+  }
+
+  input:hover{
+    border-color:  rgb(157, 100, 237);
+
+  }
+
+
+  .fill-icon{
+    transition: fill 0.3s ease;
+
+  }
+
+  .fill-icon:hover {
+    fill:  rgb(157, 100, 237);
+
+  }
+
+  .duck-icon {
+    /*transition: scale 0.5s ease;*/
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .duck-icon:hover {
+    /*scale: 1.2;*/
+  }
+
+  .box {
+    background-color: rgb(157, 100, 237);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: wainbowowo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-width: 6px;
+  }
+
+  @keyframes wainbowowo {
+    0%{
+        background-color: rgb(157, 100, 237);
+    }
+    20%{
+        background-color: rgb(237, 100, 178);
+    }
+    40%{
+        background-color: rgb(237, 127, 100);
+    }
+    60%{
+        background-color: rgb(105, 237, 100);
+    }
+    80%{
+        background-color: rgb(100, 205, 237);
+    }
+    100%{
+        background-color: rgb(157, 100, 237);
+    }
+  }
+
+  @keyframes borderlgbt {
+    0%{
+        border: rgb(157, 100, 237);
+    }
+    20%{
+        border-color: rgb(237, 100, 178);
+    }
+    40%{
+       border-color: rgb(237, 127, 100);
+    }
+    60%{
+       border-color: rgb(105, 237, 100);
+    }
+    80%{
+        border-color: rgb(100, 205, 237);
+    }
+    100%{
+        border-color: rgb(157, 100, 237);
+    }
+  }
+
+  @keyframes bounce {
+    0%{
+        translate: 0px 0px;
+    }
+    50%{
+        translate: 0px -40px;
+    }
+    100%{
+        translate: 0px 0px;
+    }
+  }
+
+  .spinner {
+    width: 120px;
+    height: 120px;
+    border: 6px solid;
+    animation-name: loading;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-top-color: rgb(157, 100, 237);
+    border-radius: 50%;
+  }
+
+  @keyframes loading {
+    0% {
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
+  }
+
+  .heart-icon {
+    animation: heartbeat 4s infinite;
+  }
+
+  @keyframes heartbeat {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 0.7;
+    }
+    100%{
+        scale: 1;
+    }
+    
+  }
+
+  #side-drawer {
+    position: fixed;
+    width: 200px;
+    background-color: cadetblue;
+    height: 100vh;
+    top: 0;
+    left: -200px;
+    transition: translate 0.5s;
+
+  }
