@@ -19,6 +19,18 @@ body{
 	color: var(--text-color);
 }
 
+
+#startButton{
+    position: absolute;
+    padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	margin-top: 20%;
+	margin-left: 40%;
+}
+
 #mainbox {
 	/*Size of Main Container*/
 	width: 120vmin;
@@ -72,9 +84,6 @@ body{
 	cursor:pointer;
 }
 
-#Menubox{
-
-}
 
 #spritebox{
 	/*Sets size*/

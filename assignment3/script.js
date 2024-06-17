@@ -25,6 +25,10 @@ const htmlData = insertHTML();
 document.getElementById('VisualNovelEngine').insertAdjacentHTML("beforebegin", htmlData);
 
 
+
+
+
+
 // Creates constants based off of the HTML created
 const $textbox = document.querySelector("#textbox p");
 const $optionsbox = document.querySelector('#optionsbox');
@@ -99,6 +103,20 @@ function handleOptions(data){
 	
 }
 
+//create a new custom Event object called build
+const event = new Event('build');
+
+// create an event listener (attached to the global window object)
+//This is like a Scratch receiver hat block. The first parameter, 'build', is the 
+//name of the broadcast. The second parameter, the function, is your code 
+//that reacts to the broadcast.
+window.addEventListener('build', function (e) { /* your code here */ });
+
+//This line of code "sends" the broadcast. 
+window.dispatchEvent(event);
+
+
+
 //Typewriter Effect 
 function typeWriter(txt, i) {
 	i = i || 0;
@@ -146,6 +164,7 @@ document.addEventListener('keydown', (e) => {
 	
 })
 
+window.addEventListener('build', function (e) { /* your code here */ });
 
 
 //Grabs the json data from the server
