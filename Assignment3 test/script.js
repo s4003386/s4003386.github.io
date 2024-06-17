@@ -115,7 +115,7 @@ function initialize(data){
 function handleOptions(data){
     // Cleans it out
     $optionsbox.innerHTML = "";
-
+//to be honest, I got no clue how this works. Where this is from is down below
     if(data.Scene1.PAGES[currentPage].hasOwnProperty('Options')){
         var o = data.Scene1.PAGES[currentPage].Options;
         Object.keys(o).forEach(k => {
@@ -203,5 +203,5 @@ Also for some reason, the images work fine locally but break entirely when uploa
 
 If your wondering why there is a pdf in the assignment page also. Its literally just to show that I was writing things other than 'hurr scene 1 page 2' 
 
-
+I'm not sure if i mentioned this already but no, I dont know why the images are broken on the github page. It works fine locally
 */
