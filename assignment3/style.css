@@ -19,6 +19,18 @@ body{
 	color: var(--text-color);
 }
 
+
+#startButton{
+    position: absolute;
+    padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	margin-top: 20%;
+	margin-left: 40%;
+}
+
 #mainbox {
 	/*Size of Main Container*/
 	width: 120vmin;
@@ -72,11 +84,18 @@ body{
 	cursor:pointer;
 }
 
-#Menubox{
-
-}
 
 #spritebox{
+	/*Sets size*/
+	max-width: 45%;
+	
+	/*Positioning in container*/
+	z-index: -1;
+	position: absolute;
+	bottom: -1.75%; 
+}
+
+#spritebox2{
 	/*Sets size*/
 	max-width: 45%;
 	
@@ -94,10 +113,16 @@ body{
 
 .leftalign{
 	/*Left alignment class for the sprite*/
+
 	left: 5%;
 }
 
 #spritebox img{
+	/*Ensures that image doesn't exceed box size*/
+	max-width:65%;
+}
+
+#spritebox2 img{
 	/*Ensures that image doesn't exceed box size*/
 	max-width:65%;
 }

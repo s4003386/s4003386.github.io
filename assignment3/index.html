@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--favicon if there is time?-->
-    <title>Assignment3 Visual Novel</title>
-
+    <title>Document</title>
+    <link rel="reset" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-
 </head>
 <body>
-    <script type="text/javascript" src="script.js" id='VisualNovelEngine'></script>
-	
+    <div id="basehtml">
+        <div id="VisualNovelEngine"></div> <!-- Changed from script to div for proper targeting -->
     </div>
-
-
+    <script type="text/javascript" src="script.js"></script> <!-- Moved script outside of div -->
 </body>
 </html>
