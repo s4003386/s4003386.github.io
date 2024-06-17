@@ -6,7 +6,7 @@
         	"Default": "sprites/Test/Default.png"
         },
         "Heizou": {
-        	"Default": "sprite/Test/Default.png"
+        	"Default": "sprites/Test/Default.png"
         },
 
 		"Null":{
@@ -47,7 +47,8 @@
 				"Options":
 				{
 					"Finish?": "Page10",
-					"Restart?": "Page0"
+					"Restart?": "Page0",
+					"Begin investigation?": "Begin investigation"
 				}
 				
 			},
@@ -62,7 +63,7 @@
 
     },
 
-    "Scene2": {
+    "Investigation 1": {
     	"Background": "Backgrounds/Dock_Crime.png",
     	"PAGES": {
 			"Page0" : {

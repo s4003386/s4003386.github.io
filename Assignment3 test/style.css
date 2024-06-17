@@ -95,6 +95,16 @@ body{
 	bottom: -1.75%; 
 }
 
+#spritebox2{
+	/*Sets size*/
+	max-width: 45%;
+	
+	/*Positioning in container*/
+	z-index: -1;
+	position: absolute;
+	bottom: -1.75%; 
+}
+
 .rightalign{
 	/*Right alignment class for the sprite*/
 	right: -9%;
@@ -103,10 +113,16 @@ body{
 
 .leftalign{
 	/*Left alignment class for the sprite*/
+
 	left: 5%;
 }
 
 #spritebox img{
+	/*Ensures that image doesn't exceed box size*/
+	max-width:65%;
+}
+
+#spritebox2 img{
 	/*Ensures that image doesn't exceed box size*/
 	max-width:65%;
 }
