@@ -3,11 +3,12 @@
 { 
     "Characters": {
         "Traveller": {
-        	"Default": "assignment3/Sprites/Test/Default.png"
+        	"Default": "sprites/Test/Default.png"
         },
         "Heizou": {
-        	"Default": "assignment3/Sprites/Test/Default.png"
+        	"Default": "sprites/Test/Default.png"
         },
+
 
 		"Null":{
 

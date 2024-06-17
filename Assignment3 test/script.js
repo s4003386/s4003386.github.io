@@ -55,7 +55,7 @@ function StartButtonPress(){
     $spritebox = document.querySelector("#spritebox img");
     //left side spritebox
     $spritebox2 = document.querySelector("#spritebox2 img");
-    //the entire 'box' that 
+    //the entire 'box' that contains everything
     $mainbox = document.querySelector('#mainbox');
     
     grabData(); // Call the function to fetch data when the Start button is pressed
