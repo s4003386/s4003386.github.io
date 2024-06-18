@@ -187,6 +187,21 @@ function turnPage() {
 
 
 
+function Investigationarea1() {
+    document.getElementById("VisualNovelEngine").innerHTML = 
+    `
+        <div id='mainbox'>
+
+            <div id='InvestigationClickBox'>
+                <span>Loading...</span>
+            </div>
+
+        </div>`;
+}
+
+
+
+
 /*A lot of the 'base' code did come from https://app.qoom.io/tutorials/vnengine/guide.md
 What was copied was the ability to use json for the text to make a 'game'. 
 of course, I added some of my own stuff (start button, different sprite functionality etc)

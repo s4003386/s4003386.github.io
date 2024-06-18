@@ -3,10 +3,10 @@
 { 
     "Characters": {
         "Traveller": {
-        	"Default": "sprites/Test/Default.png"
+        	"Default": "Sprites/Aether/Aether_default.png"
         },
         "Heizou": {
-        	"Default": "sprites/Test/Default.png"
+        	"Default": "Sprites/Heizou/Heizou_default.png"
         },
 
 
@@ -30,18 +30,26 @@
 				"Character": "Traveller",
                 "Align": "Right",
 				"Sprite": "Default",
-				"PageText": " scene 1 Page 1 "
+				"PageText": "To be honest, this is almost all completely unfinished because I tried to do way more than I could actually do."
 				
 			},
 
-            "Page2" : {
+			"Page2" : {
+				"Character": "Traveller",
+                "Align": "Right",
+				"Sprite": "Default",
+				"PageText": "Cant say trying wasnt fun though."
+				
+			},
+
+            "Page3" : {
 				"Character": "Heizou",
                 "Align": "Left",
 				"Sprite": "Default",
-				"PageText": " scene 1 Page 2 "
+				"PageText": "There are a lot of other comments in the javascript file otherwise"
             },
 
-			"Page3" : {
+			"Page4" : {
 				"Character": "Null",
 				"Sprite": "Restr",
 				"PageText": " ",
