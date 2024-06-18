@@ -209,14 +209,16 @@ honestly though, i'd have no clue what to do without the above because I've lite
 although thats probably pretty obvious considering like, a lot of it wasnt covered in class
 This was also just mostly because I'm not suuuper familiar with html/java/css yet and this guide is super helpful-ish
 
-ps. I'm actuall not sure this is allowed and I probably should have asked first but I did run the script through gpt at some point to debug. Mostly for when I tried to add a left sprite and just kinda went ??? because I accidentally just broke the thing. Like the line that has !== character null was gpt just to be clear. I'm not sure if conversation logs/changelogs can be sent but it really is just proofreading when I saw that bugs happened. 
+ps. I'm actuall not sure this is allowed and I probably should have asked first but I did run the script through gpt at some point to debug. Mostly for when I tried to add a left sprite and just kinda went ??? because I accidentally just broke the thing. Like the line that has !== character null was gpt just to be clear. I'm not sure if conversation logs/changelogs can be sent but it really is just proofreading when I saw that bugs happened, and subsequently chatGPT causing more bugs anyways and thus giving up. 
 honestly I'm totally prepared to take a 0 and move on.  I'm like dying from my other assignments. 
 
 Saying this because I did read the assignment page about no external libraries and etc so I'm not even sure if this is allowed and its a day before the assignment because I focused on my other assigngments which was due like, yesterday
 
 Also for some reason, the images work fine locally but break entirely when uploaded to github and its just the sprites, which makes me go ???
 
-If your wondering why there is a pdf in the assignment page also. Its literally just to show that I was writing things other than 'hurr scene 1 page 2' 
+If your wondering why there is a link below also, Its literally just to show that I was writing things other than 'hurr scene 1 page 2' 
 
-I'm not sure if i mentioned this already but no, I dont know why the images are broken on the github page. It works fine locally
+
 */
+
+//https://docs.google.com/document/d/1D-DCyVmXteRMbuq0wwHpmItCN_l6sb9Kp0ZuMmF_-eY/edit?usp=sharing
